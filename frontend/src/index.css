@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --white:    #ffffff;
+  --gray-50:  #f9f9f9;
+  --gray-100: #f3f3f3;
+  --gray-200: #e8e8e8;
+  --gray-300: #d1d1d1;
+  --gray-400: #a0a0a0;
+  --gray-500: #737373;
+  --gray-600: #525252;
+  --gray-700: #3a3a3a;
+  --gray-800: #262626;
+  --gray-900: #171717;
+  --black:    #0a0a0a;
+  --accent:   #2563eb;
+  --green:    #16a34a;
+  --danger:   #dc2626;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fff;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+::selection { background: #dbeafe; }
+input, button, textarea, select { font-family: inherit; }
+a { text-decoration: none; color: inherit; }
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #e8e8e8; border-radius: 99px; }
+
+@keyframes typingBounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-4px); }
+}

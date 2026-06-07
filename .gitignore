@@ -1,0 +1,77 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# =========================
+# React + Vite + PNPM
+# =========================
+node_modules/
+
+dist/
+
+# Vite cache
+.vite/
+
+# pnpm
+.pnpm-store/
+
+# npm/yarn leftovers
+package-lock.json
+yarn.lock
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Database
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Misc
+# =========================
+coverage/
